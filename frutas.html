@@ -25,41 +25,43 @@
     <title>Frutas</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-secondary">
+  <nav class="navbar navbar-expand-lg" >
     <div class="container-fluid">
-        <!--<img src="./img/espinaca.jpg" width="2%" alt="logo">-->
-        <a class="navbar-brand" href="#"><bold>Del Origen</bold></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"  aria-controls="#navbarSupportedContent"  aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarText">
+      <div class="collapse navbar-collapse" id="#navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-          <li class="nav-item">
-            <a class="nav-link" href="#">Productos</a>
+          <img src="./img/espinaca.jpg" alt="logo" width="40px"/>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="#navbarSupportedContent" role="button" data-bs-toggle="dropdown" aria-expanded="false">Del Origen</a>
+            <ul class="dropdown-menu" aria-labelledby="#navbarSupportedContent">
+              <!--<li><a class="dropdown-item" href="./frutas.html" target="_blank">Frutas</a></li>-->
+              <li><a class="dropdown-item" href="#" target="_blank">Verduras</a></li>
+              <li><a class="dropdown-item" href="#">Huevos Frescos</a></li>
+              <li><a class="dropdown-item" href="#">Frutos Secos</a></li>
+              <li><a class="dropdown-item" href="#">Todos los Productos</a></li>
+              <li><a class="dropdown-item" href="./index.html" target="_blank">Inicio</a></li>
+
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">En estación</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Preguntas frecuentes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Ingreso/Registro <i class="fa fa-sign-in" aria-hidden="true"></i></a>
-          </li>
+          
         </ul>
 
       </div>
-      <span class="navbar-text">
-        <i class="fa fa-search fa-lg" aria-hidden="true"></i>
-        <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
-      </span>
-    </div>
+        <img src="./img/espinaca.jpg" alt="logo" width="40px">Del Origen<img/>
+      
+          <!--<form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            
+        <a class="navbar-brand" href="#">Navbar</a>-->  
+        <br>
+        <span class="navbar-text">
+          <i class="fa fa-search fa-lg" aria-hidden="true"></i>
+          <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+        </span>
+      </div>
   </nav>
           
       <div class="container">
