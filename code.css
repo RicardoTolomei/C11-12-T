@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.nav{
+  background-color: #e9ece9;
+}
+.container{
+    margin: 20px;
+    width: 100%;
+}
+
+.carousel-item img{
+ height: 50%;
+
+}
+
+.botonesProductos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.btn{
+  padding: 50px;
+  margin: 50;
+}
+
+
+#titulo-destacados{
+  text-align: center;
+  text-size-adjust:inherit;
+}
+
+.img-card{
+  padding: 20px 20px;
+  border-radius: 10%;
+}
+
+.clientes{
+  align-items: center ;
+}
+
+.testimonios{
+  margin:20px;
+  padding: 20px;
+  align-items: center;
+}
+
+.nombCliente{
+  text-align: right;
+}
+
+.social-map {
+    background-color: #e9ece9;
+    padding: 2px 0px;
+    width: 100%;
+}
+
+.social-icons{
+        margin: 0.2em;
+    }
+  
+
+.social-icons {
+    float: left;
+    padding: 10px;
+    margin-left: 30px;
+
+  }
+  
+.map {
+    float: right;
+    padding: 10px;
+    margin-right: 30px;
+
+  }
+  
+
