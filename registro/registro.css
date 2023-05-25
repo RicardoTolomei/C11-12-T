@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+}
+.cuerpo{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.acuerdo{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.reg__button{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+
+
+}
+.btn__reg{
+background-color:gray;
+color: black;
+padding: 10px 10px;
+font-size: 20px;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+.conectar{
+    text-align: center;
+    font-size: 24px;
+}
+
+.btn__inicio{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 24px;
+    background-color: gray;
+}
