@@ -27,6 +27,15 @@ public class Carrito {
     public List<Pedido> mostrarCarrito(){
         return listaPedidos;
     }
+    
+    public void eliminarPedido(Pedido pedido){
+        for (int i=0;i<listaPedidos.size();i++){
+            if(listaPedidos.get(i).getNumeroDeOrden().equals(pedido)){
+                listaPedidos.remove(pedido);
+            }
+
+            
+        }     }
 
 
 
