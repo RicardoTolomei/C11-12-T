@@ -16,6 +16,17 @@ public class Pedido {
     @Column
     private Date fecha;
 
+    public double getCosto() {
+        return costo;
+    }
+
+    public void setCosto(double costo) {
+        this.costo = costo;
+    }
+
+    @Column
+    private double costo;
+
     public Long getNumeroDeOrden() {
         return numeroDeOrden;
     }

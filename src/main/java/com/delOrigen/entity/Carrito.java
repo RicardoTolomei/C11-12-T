@@ -35,7 +35,18 @@ public class Carrito {
             }
 
             
-        }     }
+        }
+        public double costoCarrito(){
+            double CostoTotal =0;
+
+            for (int i=0;i<listaPedidos.size();i++){
+                double Costo = listaPedidos.get(i).getCosto();
+                CostoTotal=(CostoTotal+Costo);
+
+            }
+          return CostoTotal;
+        }
+
 
 
 
